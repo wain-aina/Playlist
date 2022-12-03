@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+
+<link rel="stylesheet" href="css/list.css">
+<title>Roots&Dance</title>
+</head>
+<body>
+<%- include('partials/returnBtns') %>
+<main>
+    <ol class="gradient-list">
+        <li>
+            <h2>Weeknd Love</h2>
+            <p>Chris Martin</p>
+        </li>
+        <%- include('partials/newSong') %>
+        <%- include('partials/plusBtn') %>
+    </ol>
+</main>
+
+<%- include('partials/add1') %>
+<form class="card_form" method="post" action="/jamaica">
+    <%- include('partials/add2') %>
+</form>
+<%- include('partials/endOfForm') %>
+
+<%- include('partials/footer') %>

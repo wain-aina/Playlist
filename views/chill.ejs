@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+<link rel="stylesheet" href="css/list.css">
+<title>Chill</title>
+</head>
+<body>
+
+<%- include('partials/returnBtns') %>
+
+<main>
+    <ol class="gradient-list">
+        <li>
+            <h2>No One</h2>
+            <p>Alice Keys</p>
+        </li>
+
+
+        <%- include('partials/newSong') %>
+        <%- include('partials/plusBtn') %>
+
+    </ol>
+</main>
+
+<%- include('partials/add1') %>
+    <form class="card_form" method="post" action="/chill">
+<%- include('partials/add2') %>
+ </form>
+<%- include('partials/endOfForm') %>
+
+<%- include('partials/footer') %>

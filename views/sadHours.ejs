@@ -1,0 +1,27 @@
+<%- include('partials/header') %>
+
+<link rel="stylesheet" href="css/list.css">
+<title>Sad Hours</title>
+</head>
+<body>
+<%- include('partials/returnBtns') %>
+<main>
+    <ol class="gradient-list">
+        <li>
+            <h2>Halsey</h2>
+            <p>Without Me ft Juice Wrld</p>
+        </li>
+
+        <%- include('partials/newSong') %>
+        <%- include('partials/plusBtn') %>
+
+    </ol>
+</main>
+
+<%- include('partials/add1') %>
+<form class="card_form" method="post" action="/sadHours">
+    <%- include('partials/add2') %>
+</form>
+<%- include('partials/endOfForm') %>
+
+<%- include('partials/footer') %>

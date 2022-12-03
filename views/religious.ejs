@@ -1,0 +1,27 @@
+<%- include('partials/header') %>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<link rel="stylesheet" href="css/list.css">
+<title>Religious</title>
+</head>
+<body>
+<%- include('partials/returnBtns') %>
+<main>
+    <ol class="gradient-list">
+        <li>
+            <h2>Lookin For You</h2>
+            <p>Kirk Franklin</p>
+        </li>
+
+        <%- include('partials/newSong') %>
+        <%- include('partials/plusBtn') %>
+    </ol>
+</main>
+
+<%- include('partials/add1') %>
+<form class="card_form" method="post" action="/religious">
+    <%- include('partials/add2') %>
+</form>
+<%- include('partials/endOfForm') %>
+
+<%- include('partials/footer') %>
